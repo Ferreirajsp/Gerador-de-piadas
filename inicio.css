@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #00b4d8, #0077b6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.descricao {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+.joke-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  min-height: 80px;
+}
+
+button {
+  background-color: #ffb703;
+  border: none;
+  color: #023047;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ffd166;
+  transform: scale(1.05);
+}
+
+.btn-principal {
+  margin-top: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#translate-btn {
+  background-color: #8ecae6;
+  color: #023047;
+}
+
+#translate-btn:hover {
+  background-color: #ade8f4;
+}
+
+.btn-voltar {
+  background-color: #219ebc;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.btn-voltar:hover {
+  background-color: #48cae4;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .descricao {
+    font-size: 1rem;
+  }
+}
